@@ -1,0 +1,250 @@
+body { 
+    font-family: 'Montserrat', sans-serif;
+    background-color: floralwhite;
+    padding: 40px 40px 40px 40px;
+  }
+ 
+ .Wrapper {
+  display:flex ;
+  flex-direction: row-reverse;
+  background: #fff;
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+ 
+ /* Main content */
+ .Main-content {
+    
+     padding-top: 88px;
+     padding-left: 44px;
+     padding-bottom: 44px;
+     padding-right: 88px;
+     }
+ 
+     /* about me */
+
+ .my-name{
+     font-style: normal;
+     font-weight: 700;
+     font-size: 45px;
+     line-height: 55px;
+     color: #000000;
+     margin: 0 0 28px 0;
+ }
+ .i-life{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+ }
+ .date{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+ }
+
+ .about-me-container {
+     margin-bottom: 64px;
+ }
+ 
+ /* Education */
+ 
+ .Education-container {
+     width: 301px;
+     height: 114px;
+     left: 495px;
+     top: 1138px;
+ }
+ .Education-teaching {
+     font-style: normal;
+     font-weight: 700;
+     font-size: 22px;
+     line-height: 27px;
+     color: #000000;
+     margin: 0 0 12px 0;
+  
+ }
+ .Education-university {
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 20px;
+     color: #6D9BF5;
+     margin: 12px 0 12px 0;
+ }
+ .Education-position {
+     font-style: normal;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 17px; 
+     color: #000000;
+     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+     margin: 0 0 12px 0; 
+ 
+ }
+ 
+ .work-time-education {
+     font-style: normal;
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 15px;
+     color: #A8A8A8;
+     margin: 12px 0 0 0;
+ 
+ }
+ /* Projects */
+ .main-content-work{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+ }
+
+ .date-work{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 10px 0 0  0;
+ }
+ .project-item {
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     color: #000000;
+ }
+ 
+ .project-list {
+    padding: 0 0 0 16px; 
+    margin: 0;
+ }
+ 
+ .projects-container {
+    margin-bottom: 48px; 
+ }
+ 
+ .project-item-descr {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161D2A;
+ }
+ 
+ .Sidebar {
+     
+     width: 370px;
+     background: #d1c1b0;
+ }
+ .project-item-links, .project-item-link{
+    color: #161D2A;
+ }
+ .project-item-links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type:  none;
+    padding: 0;
+ }
+ .Contacts-container,
+ .Tech-Skills-container,
+ .Soft-Skills-container {
+ margin: 48px 0 0 48px ;
+ }
+ 
+ .Sidebar-title {
+     font-style: normal;
+     font-weight: 700;
+     font-size: 22px;
+     line-height: 27px;
+     color: #161D2A; 
+     margin-bottom: 8px;  
+ }
+ 
+ /* Contacts */
+ .Contacts-type {
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     color: #161D2A;
+     margin-right: 8px ;
+ }
+ .contacts-item {
+    
+     margin: 0 0 8px 0;
+ }
+ .contacts-namber,
+ .contacts-email {
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     color: #000000;
+ }
+ /* Tech Skills */
+ .Skills-list {
+     margin: 0;
+     padding: 0 0 0 20px;
+ }
+ .Skills-list-item{
+     color: #000000;
+ }
+ .Skills-list-text {
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+     color: #000000;  
+ }
+ /* Soft Skills */
+ .Soft-Skills {
+     
+     padding: 0 0 0 20px ;
+ }
+ .Soft-Skills-item {
+     color: #000000;
+ }
+ .Soft-Skills-text {
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     color: #000000 ;   
+ }
+
+ .i-lifes{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 5px;
+ }
+ .content-title{
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+     font-weight: 700;
+     font-size: 22px;
+     line-height: 27px;
+     color: #000000; 
+     margin: 0 0 12px 0;
+  }
+  .name-work {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin: 5px 0 0 0;
+}
+.project-item-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
